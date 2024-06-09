@@ -1,0 +1,80 @@
+﻿.bigbox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    background-color: #150000FF;
+}
+
+@media(min-width:0px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Page section containers*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 200px;
+    }
+
+    .page-section {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .body-header {
+        margin-bottom: -20px;
+    }
+
+    .body-sect {
+        margin-bottom: -5px;
+    }
+
+    .body-text {
+        margin-left: 2px;
+        padding-left: 10px;
+        border-left: 1px solid #DD1616FF;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .secthead-font {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .price-font {
+        margin-bottom: -10px;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}

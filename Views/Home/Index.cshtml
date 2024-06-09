@@ -1,0 +1,85 @@
+﻿@{
+	ViewData["Title"] = "Welcome!";
+	Layout = "_HomeLayout";
+}
+
+<head>
+	<link rel="stylesheet" href="~/HomeStyle/Home.css" />
+</head>
+
+<body>
+	<div class="bigbox" id="bigbigbox">
+
+		<div class="header-bar" id="Index-Header">
+			<div class="center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Index-HeadText">88.1 WSBF-FM CLEMSON</p>
+			</div>
+		</div>
+
+		<div class="body-item" id="description">
+			<p class="wsbf-font-1 body-head">Welcome to WSBF-FM, Clemson's very own alternative radio station!</p>
+		</div>
+
+		<div class="body-item" id="music-display">
+			<div class="music-horzsect" id="nowplaying">
+
+				<div class="sml-caption">
+					<p class="wsbf-font-1 tune-text">Tune in to The Best of WSBF!</p>
+				</div>
+
+				<form class="listen-live" controller="Live" action="/Live">
+					<input class="livebutton" type="submit" value="Listen Live!" />
+				</form>
+
+			</div>
+
+			<div class="music-horzsect" id="prevplayed">
+				<div class="sml-caption" id="now-playing">
+					<p class="wsbf-font-1 body-text">Here's what's been playing:</p>
+				</div>
+
+				<div class="previouslyplayed">
+
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">commatose</p>
+							<p class="wsbf-font-2 small-artist">glass beach</p>
+						</div>
+					</div>
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">Always Forever</p>
+							<p class="wsbf-font-2 small-artist">cults</p>
+						</div>
+					</div>
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">This Time Tomorrow</p>
+							<p class="wsbf-font-2 small-artist">Repel the Robot</p>
+						</div>
+					</div>
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">Bitter Taste</p>
+							<p class="wsbf-font-2 small-artist">Billy Idol</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>

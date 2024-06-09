@@ -1,0 +1,533 @@
+﻿.bigbox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    background-color: #150000FF;
+}
+
+@media(min-width: 1410px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 75%;
+    }
+
+    .Playlist-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .name {
+        width: 140px;
+        margin-right: 15px;
+    }
+
+    .author {
+        width: 140px;
+        margin-right: 15px;
+    }
+
+    .desc {
+        width: 550px;
+        margin-right: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    a {
+        color: #DD1616FF;
+    }
+
+    a:visited {
+        color: #AA1414FF;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .playlisthead {
+        color: #FFF8F8FF;
+    }
+
+    .playlistbody {
+        color: #DD1616FF;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 1260px) and (max-width: 1410px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 75%;
+    }
+
+    .Playlist-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .name {
+        width: 140px;
+        margin-right: 15px;
+    }
+
+    .author {
+        width: 140px;
+        margin-right: 15px;
+    }
+
+    .desc {
+        width: 450px;
+        margin-right: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    a {
+        color: #DD1616FF;
+    }
+
+        a:visited {
+            color: #AA1414FF;
+        }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .playlisthead {
+        color: #FFF8F8FF;
+    }
+
+    .playlistbody {
+        color: #DD1616FF;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 1010px) and (max-width: 1260px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 75%;
+    }
+
+    .Playlist-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .name {
+        width: 100px;
+        margin-right: 15px;
+    }
+
+    .author {
+        width: 100px;
+        margin-right: 15px;
+    }
+
+    .desc {
+        width: 380px;
+        margin-right: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    a {
+        color: #DD1616FF;
+    }
+
+        a:visited {
+            color: #AA1414FF;
+        }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .playlisthead {
+        color: #FFF8F8FF;
+    }
+
+    .playlistbody {
+        color: #DD1616FF;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 620px) and (max-width: 1010px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 75%;
+    }
+
+    .Playlist-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .name {
+        width: 12%;
+        margin-right: 2%;
+    }
+
+    .author {
+        width: 12%;
+        margin-right: 2%;
+    }
+
+    .desc {
+        width: 67%;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    a {
+        color: #DD1616FF;
+    }
+
+        a:visited {
+            color: #AA1414FF;
+        }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .playlisthead {
+        color: #FFF8F8FF;
+        font-size: 14px;
+    }
+
+    .playlistbody {
+        color: #DD1616FF;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 620px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 75%;
+    }
+
+    .Playlist-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .name {
+        width: 45%;
+        margin-right: 5%;
+    }
+
+    .author {
+        width: 45%;
+    }
+
+    .desc {
+        width: 0px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    a {
+        color: #DD1616FF;
+    }
+
+        a:visited {
+            color: #AA1414FF;
+        }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .playlisthead {
+        color: #FFF8F8FF;
+    }
+
+    .playlistbody {
+        color: #DD1616FF;
+    }
+
+    .hidetext {
+        color: #00000000;
+    }
+
+    #invisitext {
+        color: #00000000;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}

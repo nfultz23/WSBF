@@ -1,0 +1,643 @@
+﻿.bigbox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    background-color: #150000FF;
+}
+
+@media(min-width: 1030px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 337px;
+    }
+
+    .liveContainer {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        height: 600px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    .horzcontainer {
+        background-color: #20002000;
+        margin-top: 2.5%;
+        width: 46%;
+        height: 560px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #music-display {
+        margin-left: 2.5%;
+        margin-right: 1%;
+    }
+
+    #dj-info {
+        margin-left: 1%;
+        margin-right: 0%;
+    }
+
+    .nowplaying {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .big-img {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lineitem {
+        margin-bottom: -25px;
+    }
+
+    .sittogether {
+        display: inline-block;
+    }
+
+    .left {
+        margin-right: 10px;
+        width: 80px;
+        text-align: right;
+    }
+
+    .big-line {
+        margin-bottom: -15px;
+    }
+
+    .previouslyplayed {
+        background-color: #250000FF;
+        width: 350px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        overflow-y: auto;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 8px;
+    }
+
+    .inline-song {
+        background-color: #0000FF00;
+        width: 95%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        border-bottom: 1px solid #DD1616FF;
+    }
+
+    .small-img {
+        width: 75px;
+        height: 75px;
+        background-color: #FF00FF00;
+        vertical-align: top;
+    }
+
+    .small-txt {
+        width: 220px;
+        height: 75px;
+        margin-left: 2px;
+        background-color: #00FF0000;
+        vertical-align: top;
+    }
+
+    .small-track {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .small-artist {
+        font-size: 15px;
+        margin-top: -20px;
+        margin-left: 12px;
+    }
+
+    .stream-container {
+        background-color: #250000FF;
+        width: 360px;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        text-align: center;
+        padding-top: 10px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    .stream-label {
+        background-color: #80CC8000;
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .chatbox-container {
+        background-color: #250000FF;
+        width: 360px;
+        height: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 10px;
+    }
+
+    .chat-history {
+        background-color: #00FF0000;
+        height: 195px;
+        margin-bottom: 5px;
+        padding-top: 1px;
+        text-align: center;
+        overflow-y: auto;
+    }
+
+    .first-font {
+        margin-top: 169px;
+        font-size: 12px;
+    }
+
+    .input-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        background-color: #FFFF0000;
+    }
+
+    .usertxt {
+        width: 277px;
+        background-color: #FFF8F8FF;
+        border: 1px solid #DD1616FF;
+    }
+
+    .usersbmt {
+        background-color: #DD1616FF;
+        border: 0px solid #00000000;
+        border-radius: 10px;
+        font-family: Courier New;
+        color: #FFF8F8FF;
+    }
+
+    .usersbmt:hover {
+        background-color: #FF1212FF;
+        border: 0px solid #00000000;
+        border-radius: 10px;
+        font-family: Courier New;
+        color: #EEE4E4FF;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 480px) and (max-width: 1030px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 337px;
+    }
+
+    .liveContainer {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        width: 375px;
+        height: 600px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    #music-display {
+        background-color: #20002000;
+        margin-top: 2.5%;
+        width: 46%;
+        height: 560px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #music-display {
+        margin-left: 2.5%;
+        margin-right: 1%;
+    }
+
+    #dj-info {
+        margin-left: 1%;
+        margin-right: 0%;
+    }
+
+    .nowplaying {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 350px;
+        padding-bottom: 20px;
+    }
+
+    .big-img {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lineitem {
+        margin-bottom: -25px;
+    }
+
+    .sittogether {
+        display: inline-block;
+    }
+
+    .left {
+        margin-right: 10px;
+        width: 80px;
+        text-align: right;
+    }
+
+    .big-line {
+        margin-bottom: -15px;
+    }
+
+    .previouslyplayed {
+        background-color: #250000FF;
+        width: 350px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        overflow-y: auto;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 8px;
+    }
+
+    #dj-info {
+        width: 0px;
+    }
+
+    .inline-song {
+        background-color: #0000FF00;
+        width: 95%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        border-bottom: 1px solid #DD1616FF;
+    }
+
+    .small-img {
+        width: 75px;
+        height: 75px;
+        background-color: #FF00FF00;
+        vertical-align: top;
+    }
+
+    .small-txt {
+        width: 220px;
+        height: 75px;
+        margin-left: 2px;
+        background-color: #00FF0000;
+        vertical-align: top;
+    }
+
+    .small-track {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .small-artist {
+        font-size: 15px;
+        margin-top: -20px;
+        margin-left: 12px;
+    }
+
+    .stream-container {
+        display: none;
+    }
+
+    .stream-label {
+        display: none;
+    }
+
+    .chatbox-container {
+        display: none;
+    }
+
+    .chat-history {
+        display: none;
+    }
+
+    .first-font {
+        display: none;
+    }
+
+    .input-box {
+        display: none;
+    }
+
+    .usertxt {
+        display: none;
+    }
+
+    .usersbmt {
+        display: none;
+    }
+
+        .usersbmt:hover {
+            display: none;
+        }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 480px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 337px;
+    }
+
+    .liveContainer {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        width: 240px;
+        height: 320px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    #music-display {
+        background-color: #20002000;
+        margin-top: 2.5%;
+        width: 46%;
+        height: 560px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #music-display {
+        margin-left: 2.5%;
+        margin-right: 1%;
+    }
+
+    #dj-info {
+        margin-left: 1%;
+        margin-right: 0%;
+    }
+
+    .nowplaying {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 260px;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+
+    .big-img {
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .lineitem {
+        margin-bottom: -25px;
+    }
+
+    .sittogether {
+        display: inline-block;
+    }
+
+    .left {
+        margin-right: 10px;
+        width: 60px;
+        text-align: right;
+    }
+
+    .big-line {
+        margin-bottom: -15px;
+    }
+
+    .previouslyplayed {
+        display: none;
+        background-color: #250000FF;
+        width: 330px;
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        overflow-y: auto;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 8px;
+    }
+
+    #dj-info {
+        width: 0px;
+    }
+
+    .inline-song {
+        background-color: #0000FF00;
+        width: 95%;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        border-bottom: 1px solid #DD1616FF;
+    }
+
+    .small-img {
+        width: 75px;
+        height: 75px;
+        background-color: #FF00FF00;
+        vertical-align: top;
+    }
+
+    .small-txt {
+        width: 220px;
+        height: 75px;
+        margin-left: 2px;
+        background-color: #00FF0000;
+        vertical-align: top;
+    }
+
+    .small-track {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .small-artist {
+        font-size: 15px;
+        margin-top: -20px;
+        margin-left: 12px;
+    }
+
+    .stream-container {
+        display: none;
+    }
+
+    .stream-label {
+        display: none;
+    }
+
+    .chatbox-container {
+        display: none;
+    }
+
+    .chat-history {
+        display: none;
+    }
+
+    .first-font {
+        display: none;
+    }
+
+    .input-box {
+        display: none;
+    }
+
+    .usertxt {
+        display: none;
+    }
+
+    .usersbmt {
+        display: none;
+    }
+
+        .usersbmt:hover {
+            display: none;
+        }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}

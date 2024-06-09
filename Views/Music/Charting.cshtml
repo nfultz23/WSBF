@@ -1,0 +1,71 @@
+﻿@using WSBF.Web.Data.Entities;
+@model IEnumerable<Song>
+
+@{
+    ViewData["Title"] = "Music";
+    Layout = "_MusicLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/MusicStyle/Charting.css" />
+</head>
+
+<body>
+    <div class="bigbox" id="bigbigbox">
+
+		<div class="container header-bar" id="Charting-Header">
+			<div class="container center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Charting-HeadText">MONTHLY CHARTS</p>
+			</div>
+		</div>
+
+		<div class="container Charting-Body" id="Charting-Body">
+			<p class="wsbf-font-1 bodytext">Welcome to the WSBF Top 20! This chart shows the 20 most popular songs played by Live DJs on the WSBF-FM Airwaves over the last month.</p>
+		</div>
+
+		<div class="container body-container">
+
+			<div class="container listitem">
+				<div class="rowitem rank" id="rank-head">
+					<p class="wsbf-font-1 charthead">Rank</p>
+				</div>
+				<div class="rowitem plays" id="plays-head">
+					<p class="wsbf-font-1 charthead">Plays</p>
+				</div>
+				<div class="rowitem name" id="name-head">
+					<p class="wsbf-font-1 charthead">Track Name</p>
+				</div>
+				<div class="rowitem artist" id="artist-head">
+					<p class="wsbf-font-1 charthead">Artist</p>
+				</div>
+				<div class="rowitem rot" id="rot-head">
+					<p class="wsbf-font-1 charthead">Rotation</p>
+				</div>
+			</div>
+
+			@{var x = 1;}
+			@foreach (var s in Model)
+			{
+				<div class="container listitem">
+					<div class="rowitem rank">
+						<p class="wsbf-font-1 chartbody num-txt">@x</p>
+						@{x += 1;}
+					</div>
+					<div class="rowitem plays">
+						<p class="wsbf-font-1 chartbody num-txt">@s.Plays</p>
+					</div>
+					<div class="rowitem name">
+						<p class="wsbf-font-1 chartbody">@s.Name</p>
+					</div>
+					<div class="rowitem artist">
+						<p class="wsbf-font-1 chartbody">@s.Artist</p>
+					</div>
+					<div class="rowitem rot">
+						<p class="wsbf-font-1 chartbody">@s.Rot</p>
+					</div>
+				</div>
+			}
+		</div>
+
+    </div>
+</body>

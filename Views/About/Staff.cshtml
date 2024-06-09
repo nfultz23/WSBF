@@ -1,0 +1,51 @@
+﻿@using WSBF.Web.Data.Entities
+@model IEnumerable<StaffMember>
+
+@{
+    ViewData["Title"] = "Staff";
+    Layout = "_AboutLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/AboutStyle/Staff.css" />
+</head>
+
+<body>
+	<div class="bigbox">
+
+		<!--This block makes up the header at the top of the page-->
+		<div class="container header-bar" id="Staff-Header">
+			<div class="container center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Staff-HeadText">OUR STAFF</p>
+			</div>
+		</div>
+
+		<div class="container body-container" id="Staff-Body">
+			@foreach (var st in Model)
+			{
+				<div class="container listitem">
+					<div class="container photo">
+						<img class="staff-photo" src="../@st.img" width="100" alt="WSBF-FM @st.title" />
+					</div>
+
+					<div class="container id">
+						<div class="container name">
+							<p class="wsbf-font-1 name-text">@st.name</p>
+						</div>
+						<div class="container title">
+							<p class="wsbf-font-1 title-text">@st.title</p>
+						</div>
+						<div class="container email">
+							<p class="wsbf-font-1 email-text"><em>@st.email</em></p>
+						</div>
+					</div>
+
+					<div class="container bio">
+						<p class="wsbf-font-1 bio-text">@st.bio</p>
+					</div>
+				</div>
+			}
+		</div>
+	
+	</div>
+</body>

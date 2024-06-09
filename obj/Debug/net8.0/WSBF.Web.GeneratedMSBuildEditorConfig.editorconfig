@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WSBF.Web
+build_property.RootNamespace = WSBF.Web
+build_property.ProjectDir = C:\Users\Minot\Desktop\Github Repos\WSBF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Minot\Desktop\Github Repos\WSBF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/About/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/About/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/About/Join.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSm9pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/About/Promotion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcUHJvbW90aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/About/Staff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcU3RhZmYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Event/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQm9va2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Event/Calendar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQ2FsZW5kYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Event/Shows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcU2hvd3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Live/LiveIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2ZVxMaXZlSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Music/Charting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcQ2hhcnRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Music/DJSignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcREpTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Music/Playlists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcUGxheWxpc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Music/Recording.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcUmVjb3JkaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Music/Schedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcU2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Shared/_AboutLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BYm91dExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Shared/_EventsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FdmVudHNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Shared/_LiveLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaXZlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Minot/Desktop/Github Repos/WSBF/Views/Shared/_MusicLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NdXNpY0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

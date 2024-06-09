@@ -1,0 +1,60 @@
+﻿@using WSBF.Web.Data.Entities;
+@model IEnumerable<Playlist>
+@{
+    ViewData["Title"] = "Music";
+    Layout = "_MusicLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/MusicStyle/Playlists.css" />
+</head>
+
+<body>
+    <div class="bigbox" id="bigbigbox">
+
+		<div class="container header-bar" id="Playlist-Header">
+			<div class="container center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Playlist-HeadText">DJ PLAYLISTS</p>
+			</div>
+		</div>
+
+		<div class="container Playlist-Body" id="Playlist-Body">
+			<p class="wsbf-font-1 bodytext">These are playlists made by our very own WSBF-FM staff for you to open and listen! They can be a collection of their favorite songs, a themed set, or one of their previous shows. Click through the names, find one you like!</p>
+		</div>
+
+		<div class="container body-container">
+
+			<div class="container listitem">
+				<div class="rowitem name" id="name-head">
+					<p class="wsbf-font-1 playlisthead">Name</p>
+				</div>
+				<div class="rowitem author" id="author-head">
+					<p class="wsbf-font-1 playlisthead">Author</p>
+				</div>
+				<div class="rowitem desc" id="name-desc">
+					<p class="wsbf-font-1 playlisthead" id="invisitext">Description</p>
+				</div>
+			</div>
+
+			<!------------------------------------------------->
+			@foreach (var p in Model)
+			{
+				<div class="container listitem">
+					<div class="rowitem name">
+						<p class="wsbf-font-1 playlistbody">
+							<a href=@p.link>@p.name</a>
+						</p>
+					</div>
+					<div class="rowitem author">
+						<p class="wsbf-font-1 playlistbody">@p.author</p>
+					</div>
+					<div class="rowitem desc">
+						<p class="wsbf-font-1 playlistbody hidetext">@p.desc</p>
+					</div>
+				</div>
+			}
+			<!------------------------------------------------->
+		</div>
+
+	</div>
+</body>

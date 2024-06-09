@@ -1,0 +1,803 @@
+﻿.bigbox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    background-color: #150000FF;
+}
+
+@media(min-width: 1210px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 900px;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+    }
+
+    .rank {
+        width: 40px;
+        margin-right: 15px;
+    }
+
+    .plays {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .name {
+        width: 300px;
+        margin-right: 15px;
+    }
+
+    .artist {
+        width: 250px;
+        margin-right: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 1070px) and (max-width: 1210px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 90%;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        background-color: #FFFF0000;
+    }
+
+    .rank {
+        width: 40px;
+        margin-right: 15px;
+    }
+
+    .plays {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .name {
+        width: 300px;
+        margin-right: 15px;
+    }
+
+    .artist {
+        width: 250px;
+        margin-right: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 940px) and (max-width: 1070px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 90%;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        background-color: #FFFF0000;
+        vertical-align: top;
+    }
+
+    .rank {
+        width: 40px;
+        margin-right: 15px;
+    }
+
+    .plays {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .name {
+        width: 250px;
+        margin-right: 15px;
+    }
+
+    .artist {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 890px) and (max-width: 940px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 90%;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        background-color: #FFFF0000;
+        vertical-align: top;
+    }
+
+    .rank {
+        width: 40px;
+        margin-right: 15px;
+    }
+
+    .plays {
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .name {
+        width: 280px;
+        margin-right: 15px;
+    }
+
+    .artist {
+        width: 230px;
+        margin-right: 0px;
+    }
+
+    .rot {
+        width: 0px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    .hidetext {
+        color: #00000000;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 690px) and (max-width: 890px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 90%;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        background-color: #FFFF0000;
+        vertical-align: top;
+    }
+
+    .rank {
+        width: 8%;
+        margin-left: -5px;
+        margin-right: 10px;
+    }
+
+    .plays {
+        width: 8%;
+        margin-right: 10px;
+    }
+
+    .name {
+        width: 42%;
+        margin-right: 10px;
+    }
+
+    .artist {
+        width: 33%;
+        margin-right: 0px;
+    }
+
+    .rot {
+        width: 0px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    .hidetext {
+        color: #00000000;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 510px) and (max-width: 690px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 338px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 90%;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        background-color: #FFFF0000;
+        vertical-align: top;
+    }
+
+    .rank {
+        width: 40px;
+        margin-left: -5px;
+        margin-right: 3%;
+    }
+
+    .plays {
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .name {
+        width: 145px;
+        margin-right: 4%;
+    }
+
+    .artist {
+        width: 140px;
+        margin-right: 0px;
+    }
+
+    .rot {
+        width: 0px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    .hidetext {
+        color: #00000000;
+    }
+
+    .hidetext-2 {
+        color: #00000000;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 510px) {
+    /*General items*/
+    .container {
+        background-color: #80808000;
+    }
+
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 110px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 170px;
+    }
+
+    .body-container {
+        margin-top: 30px;
+    }
+
+    /*List Item Styling*/
+    .listitem {
+        background-color: #FF00FF00;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        border-bottom: 1px solid #DD1616FF;
+        width: 90%;
+    }
+
+    .Charting-Body {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rowitem {
+        display: inline-block;
+        background-color: #FFFF0000;
+        vertical-align: top;
+    }
+
+    .rank {
+        width: 10%;
+        margin-left: -10px;
+        margin-right: 18px;
+    }
+
+    .plays {
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    .name {
+        width: 42%;
+        margin-right: 5px;
+    }
+
+    .artist {
+        width: 35%;
+        margin-right: 0px;
+    }
+
+    .rot {
+        width: 0px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        font-family: Courier New;
+    }
+
+    .pagehead-font {
+        color: #FFF8F8FF;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .bodytext {
+        color: #FFF8F8FF;
+    }
+
+    .charthead {
+        color: #FFF8F8FF;
+    }
+
+    .chartbody {
+        color: #DD1616FF;
+    }
+
+    .num-txt {
+        margin-left: auto;
+        margin-right: auto;
+        width: 20px;
+    }
+
+    .hidetext {
+        color: #00000000;
+    }
+
+    .hidetext-2 {
+        color: #00000000;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}

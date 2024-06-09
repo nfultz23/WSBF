@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Music";
+    Layout = "_MusicLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/MusicStyle/DJSignIn.css" />
+</head>
+
+<body>
+    <div class="bigbox" id="bigbigbox">
+
+		<div class="container header-bar" id="Charting-Header">
+			<div class="container center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Charting-HeadText">WELCOME DJs!</p>
+			</div>
+		</div>
+
+		<div class="signin-outerbox">
+			<div class="form-container">
+				<form id="DJSignIn">
+					<div class="lineitem" id="username-line">
+						<p class="wsbf-font-1 label-txt">Username</p>
+						<input type="text" class="user-input" name="username" />
+					</div>
+					<div class="lineitem" id="password-line">
+						<p class="wsbf-font-1 label-txt">Password</p>
+						<input type="password" class="user-input" name="password" />
+					</div>
+					<div class="lineitem" id="login-line">
+						<input type="submit" class="wsbf-font-1 login-button" value="Login" />
+					</div>
+				</form>
+			</div>
+		</div>
+
+    </div>
+</body>

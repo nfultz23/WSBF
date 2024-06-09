@@ -1,0 +1,92 @@
+﻿@using WSBF.Web.Models
+@model ShowSchedule
+
+@{
+	ViewData["Title"] = "Music";
+	Layout = "_MusicLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/MusicStyle/Schedule.css" />
+</head>
+
+<body>
+    <div class="bigbox" id="bigbigbox">
+
+        <div class="container header-bar" id="Schedule-Header">
+			<div class="container center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Schedule-HeadText">SHOW SCHEDULE</p>
+			</div>
+		</div>
+
+		<div class="container button-bar" id="Schedule-Buttons">
+			<div class="container button-row" id="row1">
+				<form class="day-item" id="Sunday" action="Schedule">
+					<input type="hidden" name="day" value="sun" />
+					<input class="day-button" type="submit" value="SUNDAY" />
+				</form>
+				<form class="day-item" id="Monday" action="Schedule">
+					<input type="hidden" name="day" value="mon" />
+					<input class="day-button" type="submit" value="MONDAY" />
+				</form>
+				<form class="day-item" id="Tuesday" action="Schedule">
+					<input type="hidden" name="day" value="tue" />
+					<input class="day-button" type="submit" value="TUESDAY" />
+				</form>
+				<form class="day-item" id="Wednesday" action="Schedule">
+					<input type="hidden" name="day" value="wed" />
+					<input class="day-button" type="submit" value="WEDNESDAY" />
+				</form>
+			</div>
+			<div class="container button-row" id="row2">
+				<form class="day-item" id="Thursday" action="Schedule">
+					<input type="hidden" name="day" value="thu" />
+					<input class="day-button" type="submit" value="THURSDAY" />
+				</form>
+				<form class="day-item" id="Friday" action="Schedule">
+					<input type="hidden" name="day" value="fri" />
+					<input class="day-button" type="submit" value="FRIDAY" />
+				</form>
+				<form class="day-item" id="Saturday" action="Schedule">
+					<input type="hidden" name="day" value="sat" />
+					<input class="day-button" type="submit" value="SATURDAY" />
+				</form>
+			</div>
+		</div>
+
+		<div class="container body-container" id="Schedule-Body">
+		@foreach (var s in Model.ShowList)
+		{
+			<div class="container listitem">
+				<div class="container main-info">
+					<div class="container photo">
+						<img class="show-photo" src=@s.img width="100px" alt="Show Icon" />
+					</div>
+
+					<div class="container id">
+						<div class="container name">
+							<p class="wsbf-font-1 name-text">@s.name</p>
+						</div>
+						<div class="container hosts">
+							@foreach (var hostname in s.host)
+							{
+								<p class="wsbf-font-1 host-text">@hostname</p>
+							}
+						</div>
+						<div class="container time">
+							<p class="wsbf-font-1 time-text"><em>@s.str_start</em></p>
+						</div>
+					</div>
+				</div>
+
+				@if (s.desc != "") {
+					<div class="container bio">
+						<p class="wsbf-font-1 bio-text">@s.desc</p>
+					</div>
+				}
+			</div>
+		}
+		</div>
+
+    </div>
+</body>

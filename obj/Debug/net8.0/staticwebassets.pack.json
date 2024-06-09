@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\AboutStyle\\AboutUs.css",
+      "PackagePath": "staticwebassets\\AboutStyle\\AboutUs.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\AboutStyle\\Promotion.css",
+      "PackagePath": "staticwebassets\\AboutStyle\\Promotion.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\EventStyle\\Calendar.css",
+      "PackagePath": "staticwebassets\\EventStyle\\Calendar.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\EventStyle\\Shows.css",
+      "PackagePath": "staticwebassets\\EventStyle\\Shows.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\HomeStyle\\Home.css",
+      "PackagePath": "staticwebassets\\HomeStyle\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\LiveStyle\\Live.css",
+      "PackagePath": "staticwebassets\\LiveStyle\\Live.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\MusicStyle\\Charting.css",
+      "PackagePath": "staticwebassets\\MusicStyle\\Charting.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\MusicStyle\\DJSignIn.css",
+      "PackagePath": "staticwebassets\\MusicStyle\\DJSignIn.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\MusicStyle\\Playlists.css",
+      "PackagePath": "staticwebassets\\MusicStyle\\Playlists.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\MusicStyle\\Recording.css",
+      "PackagePath": "staticwebassets\\MusicStyle\\Recording.css"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\event-photos\\eventphoto.png",
+      "PackagePath": "staticwebassets\\event-photos\\eventphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\show-photos\\showphoto.png",
+      "PackagePath": "staticwebassets\\show-photos\\showphoto.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\chief-announcer.png",
+      "PackagePath": "staticwebassets\\staff-photos\\chief-announcer.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\chief-engineer.png",
+      "PackagePath": "staticwebassets\\staff-photos\\chief-engineer.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\computer-engineer.png",
+      "PackagePath": "staticwebassets\\staff-photos\\computer-engineer.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\events-coordinator.png",
+      "PackagePath": "staticwebassets\\staff-photos\\events-coordinator.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\general-manager.png",
+      "PackagePath": "staticwebassets\\staff-photos\\general-manager.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\music-director.png",
+      "PackagePath": "staticwebassets\\staff-photos\\music-director.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\staff-photos\\production-director.png",
+      "PackagePath": "staticwebassets\\staff-photos\\production-director.png"
+    },
+    {
+      "Id": "C:\\Users\\Minot\\Desktop\\Github Repos\\WSBF\\wwwroot\\wsbflady.png",
+      "PackagePath": "staticwebassets\\wsbflady.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WSBF.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WSBF.Web.props",
+      "PackagePath": "build\\WSBF.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WSBF.Web.props",
+      "PackagePath": "buildMultiTargeting\\WSBF.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WSBF.Web.props",
+      "PackagePath": "buildTransitive\\WSBF.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

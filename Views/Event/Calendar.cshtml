@@ -1,0 +1,52 @@
+﻿@using WSBF.Web.Data.Entities;
+@model IEnumerable<Event>
+@{
+    ViewData["Title"] = "Calendar";
+    Layout = "_EventsLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/EventStyle/Calendar.css" />
+</head>
+
+<body>
+    <div class="bigbox" id="bigbigbox">
+
+		<div class="container header-bar" id="Shows-Header">
+			<div class="container center-text">
+				<p class="wsbf-font-1 pagehead-font" id="Shows-HeadText">UPCOMING SHOWS</p>
+			</div>
+		</div>
+
+		<div class="container body-container" id="Shows-Body">
+
+			@foreach (var e in Model)
+			{
+				<div class="container listitem">
+					<div class="container photo">
+						<img class="show-photo" src="../@e.img" width="120" alt=@e.name />
+					</div>
+
+					<div class="container id">
+						<div class="container name">
+							<p class="wsbf-font-1 name-text">@e.name</p>
+						</div>
+
+						<div class="container date">
+							<p class="wsbf-font-1 date-text">@e.date[0]/@e.date[1]/@e.date[2]</p>
+						</div>
+						<div class="container loc">
+							<p class="wsbf-font-1 loc-text"><em>@e.loc</em></p>
+						</div>
+					</div>
+
+					<div class="container desc">
+						<p class="wsbf-font-1 desc-text">@e.desc</p>
+					</div>
+				</div>
+			}
+
+		</div>
+
+    </div>
+</body>

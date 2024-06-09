@@ -1,0 +1,112 @@
+﻿@{
+    ViewData["Title"] = "We're Live!";
+    Layout = "_LiveLayout";
+}
+
+<head>
+    <link rel="stylesheet" href="~/LiveStyle/Live.css" />
+</head>
+
+<body>
+    <div class="bigbox" id="bigbigbox">
+
+		<div class="liveContainer" id="mainbox">
+
+			<div class="horzcontainer" id="music-display">
+				<div class="nowplaying">
+					<div class="big-img">
+						<img id="current-song" src="../wsbflady.png" width="200" alt="Now Playing" />
+					</div>
+					<div class="big-text">
+						<div class="lineitem">
+							<p class="wsbf-font-2 sittogether left">Track</p>
+							<p class="wsbf-font-1 sittogether right">A Little Distance</p>
+						</div>
+						<div class="lineitem">
+							<p class="wsbf-font-2 sittogether left">Artist</p>
+							<p class="wsbf-font-1 sittogether right">Brad Sucks</p>
+						</div>
+						<div class="lineitem">
+							<p class="wsbf-font-2 sittogether left">Album</p>
+							<p class="wsbf-font-1 sittogether right">A New Low in Hi-Fi</p>
+						</div>
+						<div class="lineitem">
+							<p class="wsbf-font-2 sittogether left">Show</p>
+							<p class="wsbf-font-1 sittogether right">The Best of WSBF-FM</p>
+						</div>
+						<div class="lineitem">
+							<p class="wsbf-font-2 sittogether left">Host</p>
+							<p class="wsbf-font-1 sittogether right">Otto Mation</p>
+						</div>
+					</div>
+				</div>
+				<div class="previouslyplayed">
+
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">commatose</p>
+							<p class="wsbf-font-2 small-artist">glass beach</p>
+						</div>
+					</div>
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">Always Forever</p>
+							<p class="wsbf-font-2 small-artist">cults</p>
+						</div>
+					</div>
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">This Time Tomorrow</p>
+							<p class="wsbf-font-2 small-artist">Repel the Robot</p>
+						</div>
+					</div>
+					<div class="inline-song">
+						<div class="sittogether small-img">
+							<img class="prevplayed-img" src="..\wsbflady.png" alt="Previously Played" width="75" />
+						</div>
+						<div class="sittogether small-txt">
+							<p class="wsbf-font-1 small-track">Bitter Taste</p>
+							<p class="wsbf-font-2 small-artist">Billy Idol</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="horzcontainer" id="dj-info">
+
+				<div class="stream-container" id="dj-stream">
+					<p class="wsbf-font-1 downstream-txt">
+						Oh no! The WSBF Studio Stream<br />
+						seems to be down right now...<br /><br />
+						Please come back again later!
+					</p>
+				</div>
+				<div class="stream-label">
+					<p class="wsbf-font-2 lbl-txt">The Best of WSBF - Otto Mation</p>
+				</div>
+
+				<div class="chatbox-container">
+					<div class="chat-history">
+						<p class="wsbf-font-2 first-font">Be the first to send a message!</p>
+					</div>
+					<form class="input-box">
+						<input type="text" class="sittogether usertxt" name="userMessage" />
+						<input type="submit" class="sittogether usersbmt" name="submit" value="Send!" />
+					</form>
+				</div>
+
+			</div>
+
+		</div>
+
+    </div>
+</body>

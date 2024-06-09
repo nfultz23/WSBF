@@ -1,0 +1,441 @@
+﻿<!--This layout file is used to create the header, subheader, and footer for the-->
+<!--  'Home' family. Currently, this includes only the site's homepage.         -->
+<!DOCTYPE html>
+
+<html>
+<head>
+	<!--Stores information about the viewport, the device's information, and-->
+	<!--  the page's tab title                                              -->
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] - 88.1 FM Clemson</title>
+
+    <style>
+		/*Stylings for the header and footer of the pages*/
+		.stationary-bar {
+			position: fixed;
+		}
+		#header-bar {
+			margin-left: -7px;
+			margin-top:  -9px;
+
+			height: 70px;
+			width:  100%;
+
+			background-color: #150000FF;
+			border-bottom:    #FFF8F8FF 1px solid;
+		}
+		#subheader-bar {
+			margin-left: -7px;
+			margin-top:  62px;
+
+			width: 100%;
+
+			background-color: #150000FF;
+			border-bottom:    #FFF8F8FF 1px solid;
+		}
+		#footer-bar {
+			position: relative;
+			display:  block;
+
+			margin-left: -7px;
+
+			bottom: 0px;
+
+			width: 100.9%;
+
+			background-color: #150000FF;
+			border-top:       #FFF8F8FF 1px solid;
+		}
+
+		/*Divider between the buttons in the main header*/
+		.divider {
+			display: inline-block;
+
+			margin-top:      0px;
+			margin-bottom: -13px;
+
+			width:   1px;
+			height: 32px;
+
+			background-color: #FFF8F8FF;
+		}
+
+		/*Set of containers that hold images, text, or buttons*/
+		.container {}
+		/*Handling for the button behind The Lady*/
+		#icon-container {
+			display: inline;
+
+			height: 100px;
+			width:  265px;
+
+			background-color: #00000000;
+		}
+		#iconimg-container {
+			display: inline-block;
+
+			margin-top:  4px;
+			margin-left: 4px;
+
+			width:  60px;
+			height: 60px;
+
+			background-color: #00000000;
+		}
+		#icontext-container {
+			display: inline-block;
+
+			margin-top: 3px;
+			
+			vertical-align: top;
+
+			background-color: #00000000;
+		}
+		/*Container for the buttons in the main header*/
+		#button-container {
+			display: inline-block;
+
+			margin-right: 16px;
+			margin-top:   20px;
+			padding-left:  5px;
+			padding-right: 5px;
+
+			float:          right;
+			vertical-align: top;
+
+			height: 33px;
+
+			background-color: #00000000;
+		}
+		#subbutton-container {
+			display: inline-block;
+
+			margin-right: 11px;
+			padding-left:  5px;
+			padding-right: 5px;
+			
+			float:          right;
+			vertical-align: top;
+
+			background-color: #150000FF;
+		}
+		/*Container for the buttons in the subheader*/
+		#tagline-container {
+			margin-left: 10px;
+		}
+		#content-container {
+			display: flex;
+
+			margin-bottom: 15px;
+			margin-top:    90px;
+
+			min-height: 76vh;
+			width:      100%;
+
+			background-color: #00000000;
+		}
+
+		/*Containers of the buttons in the main and subheaders*/
+		/*Containers for the header and subheader buttons*/
+		.nav-item {
+			display: inline-block;
+
+			margin-left:  4px;
+			margin-right: 4px;
+			margin-top:   6px;
+		}
+		.subnav-item {
+			display: inline-block;
+
+			margin-bottom: 0px;
+			margin-right:  4px;
+			margin-top:    0px;
+		}
+		/*The Lady container*/
+		#iconimg {
+		}
+
+		/*Text and font stylings*/
+		/*Text in different parts of the site*/
+		.wsbf-mainfont-1 {
+			font-family:   "Courier New";
+			font-size:      23px;
+			font-weight:    bold;
+			letter-spacing: 5px;
+
+			color: #FFF8F8FF;
+		}
+		.wsbf-mainfont-2 {
+			font-family:   "Courier New";
+			font-size:      15px;
+			font-weight:    bold;
+			letter-spacing: 1.5px;
+
+			color: #FFF8F8FF;
+		}
+		/*Text in the header*/
+		#headtext-top {
+			margin-top: 10px;
+		}
+		#headtext-btm {
+			margin-bottom: 10px;
+			margin-top:   -28px;
+		}
+		/*Text in the footer*/
+		#foottext-top {
+			margin-top: 10px;
+		}
+		#foottext-btm {
+			margin-bottom: 10px;
+			margin-top:   -15px;
+		}
+
+		/*Stylings of the images and buttons themselves*/
+		/*Navigational buttons in the Main Header*/
+		.nav-button {
+			display: inline-block;
+
+			padding-bottom: 3px;
+			padding-left:   5px;
+			padding-right:  4px;
+
+			transform: scaleY(1.5);
+
+			cursor: pointer;
+
+			font-family:    Courier New, Courier, monospace;
+			font-size:      14px;
+			font-weight:    normal;
+			letter-spacing: 1px;
+
+			background-color: #150000FF;
+			border:              0px;
+			color:            #FFF8F8FF;
+		}
+		.nav-button:hover {
+			display: inline-block;
+			
+			padding-bottom: 3px;
+			padding-left:   5px;
+			padding-right:  4px;
+			
+			transform: scaleY(1.5);
+
+			cursor: pointer;
+			
+			font-family:    Courier New, Courier, monospace;
+			font-size:      14px;
+			font-weight:    normal;
+			letter-spacing: 1px;
+
+			background-color: #DD1616FF;
+			border:              0px;
+			color:            #FFF8F8FF;
+		}
+		.nav-button-active {
+			display: inline-block;
+			
+			padding-bottom: 3px;
+			padding-left:   5px;
+			padding-right:  4px;
+			
+			transform: scaleY(1.5);
+
+			cursor: pointer;
+			
+			font-family:    Courier New, Courier, monospace;
+			font-size:      14px;
+			font-weight:    normal;
+			letter-spacing: 1px;
+
+			background-color: #DD1616FF;
+			border:              0px;
+			color:            #FFF8F8FF;
+		}
+		/*Mavigation buttons in the subheader*/
+        .subnav-button {
+            display: inline-block;
+
+			padding-bottom: 3px;
+            padding-left:   5px;
+            padding-right:  4px;
+            padding-top:    3px;
+
+			transform: scaleY(1);
+
+            font-family:   "Courier New";
+			font-size:      12px;
+			font-weight:    normal;
+			letter-spacing: 1px;
+
+			background-color: #150000FF;
+			border:              0px;
+			color:            #FFF8F8FF;
+        }
+        .subnav-button:hover {
+			display: inline-block;
+			
+			padding-bottom: 3px;
+			padding-left:   5px;
+			padding-right:  4px;
+			padding-top:    3px;
+			
+			transform: scaleY(1);
+
+			cursor: pointer;
+			
+			font-family:   "Courier New";
+			font-size:      12px;
+			font-weight:    normal;
+			letter-spacing: 1px;
+			
+			background-color: #DD1616FF;
+			border:            0px;
+			color:            #FFF8F8FF;
+		}
+		/*The Lady button link*/
+		#imglink {
+			width:  100%;
+			height: 100%;
+
+			top:  0;
+			left: 0;
+
+			z-index: 1;
+		}
+		/*The buttons in the footer*/
+		#footer-btn {
+			display: inline-block;
+
+			margin-right: 16px;
+			margin-top:  -43px;
+			padding-left:  5px;
+			padding-right: 5px;
+
+			vertical-align: top;
+			float:          right;
+
+			height: 33px;
+
+			background-color:        #00000000;
+			border-bottom: 0px;
+			border-left:   1px solid #FFF8F8FF;
+			border-right:  1px solid #FFF8F8FF;
+			border-top:    0px;
+		}
+		/*The Lady button formatting*/
+		#imgbtn {
+			height: 60px;
+			width: 60px;
+
+			border:            0px;
+			background-color:#ffffff00;
+			background-image:  url("wsbflady.png");
+			background-size:   cover;
+		}
+		#imgbtn:hover {
+			height: 60px;
+			width: 60px;
+
+			cursor: pointer;
+
+			border:           0px;
+			background-image: url("wsbflady.png");
+			background-color: #00000000;
+			background-size: cover;
+		}
+
+		/*The body of the site*/
+		body {
+			display: block;
+			
+			padding-top: 1px;
+
+			background-color: #000000;
+		}
+    </style>
+</head>
+
+<body>
+	<!--The fixed bar that makes up the main header-->
+	<div class="stationary-bar" id="header-bar">
+		<div class="container" id="icon-container">
+			<!--This is the container of the button with The Lady-->
+			<form class="container" id="iconimg-container" controller="Home" action="Home">
+				<input type="submit" id="imgbtn" value=""/>
+			</form>
+
+			<!--This is the container for the legal station ID-->
+			<div class="container" id="icontext-container">
+				<p class="wsbf-mainfont-1" id="headtext-top">WSBF FM</p>
+				<p class="wsbf-mainfont-1" id="headtext-btm">CLEMSON</p>
+			</div>
+		</div>
+
+		<!--This is the container for the main header's navigational buttons-->
+		<!--The buttons redirect to other controllers, and are divided by   -->
+		<!--  the white line button                                         -->
+		<div class="container" id="button-container">
+			<form class="nav-item" controller="About" action="About/AboutUs">
+				<input class="nav-button" id="abt-btn" type="submit" value="ABOUT"  />
+			</form>
+			<div class="divider"></div>
+			<form class="nav-item" controller="Music" action="Music/Schedule">
+				<input class="nav-button" id="msc-btn" type="submit" value="MUSIC"  />
+			</form>
+			<div class="divider"></div>
+			<form class="nav-item" controller="Event" action="Events/Calendar">
+				<input class="nav-button" id="vnt-btn" type="submit" value="EVENTS" />
+			</form>
+			<div class="divider"></div>
+			<form class="nav-item" controller="Live" action="/Live">
+				<input class="nav-button" id="liv-btn" type="submit" value="LIVE!"  />
+			</form>
+		</div>
+	</div>
+
+	<!--This makes up the thin button bar below the main header, the subheader that-->
+	<!--  changes based on the site that is being displayed.                       -->
+	<div class="stationary-bar" id="subheader-bar">
+		<div class="container" id="subbutton-container">
+			<form class="subnav-item" action="@Url.Action("Schedule", "Music")">
+				<input class="subnav-button" id="scdl-btn" type="submit" value="SHOW SCHEDULE" />
+			</form>
+			<form class="subnav-item" action="@Url.Action("Calendar", "Event")">
+				<input class="subnav-button" id="msc-btn" type="submit" value="EVENT CALENDAR" />
+			</form>
+			<form class="subnav-item" action="@Url.Action("Join", "About")">
+				<input class="subnav-button" id="vnt-btn" type="submit" value="JOIN US" />
+			</form>
+			<form class="subnav-item" action="@Url.Action("DJSignIn", "Music")">
+				<input class="subnav-button" id="liv-btn" type="submit" value="DJs" />
+			</form>
+		</div>
+	</div>
+
+	<!--Contains the body of the site. Whatever is within the View file gets rendered-->
+	<!--  within the bounds of the content-container, so adjusting that tag's        -->
+	<!--  properties will affect the way the View is displayed                       -->
+    <div class="container" id="content-container">
+        @RenderBody()
+    </div>
+
+	<!--The bar that ends at the bottom of the site. Sits at the bottom of the page-->
+	<!--  below the body of the site.                                              -->
+	<footer class="container" id="footer-bar">
+		<!--This stores the tag-line of the station. Did you know that's what WSBF -->
+		<!-- stands for? I didn't.                                                 -->
+		<div class="container" id="tagline-container">
+			<p class="wsbf-mainfont-2" id="foottext-top">We Should</p>
+			<p class="wsbf-mainfont-2" id="foottext-btm">Be Friends</p>
+		</div>
+		<!--This contains the 'Listen Live!' button on the right side of the footer-->
+		<div class="container" id="footer-btn">
+			<form class="nav-item" id="footer-live" controller="Live" action="/Live">
+				<input class="nav-button" id="liv-btn-footer" type="submit" value="Listen Live!" />
+			</form>
+		</div>
+	</footer>
+
+</body>
+</html>

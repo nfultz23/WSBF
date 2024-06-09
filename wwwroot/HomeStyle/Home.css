@@ -1,0 +1,649 @@
+﻿.bigbox {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 85%;
+    background-color: #150000FF;
+}
+
+@media(min-width: 900px) {
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 485px;
+    }
+
+    .body-item {
+        background-color: #FF00FF00;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: top;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    #music-display {
+        min-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .music-horzsect {
+        background-color: #00FF0000;
+        width: 45%;
+        min-height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    #nowplaying {
+        margin-top: 40px;
+        width: 31%;
+        min-width: 290px;
+        margin-bottom: 40px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    .previouslyplayed {
+        background-color: #0000FF00;
+        width: 70%;
+        min-width: 290px;
+        height: 250px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 10px;
+    }
+
+    .inline-song {
+        background-color: #150000FF;
+        padding: 6px;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .sittogether {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .small-track {
+        margin-bottom: -10px;
+    }
+
+    .listen-live {
+        background-color: #FF000000;
+        text-align: center;
+    }
+
+    .livebutton {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-family: Courier New;
+        color: #FFF8F8FF;
+        background-color: #DD1616FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    .livebutton:hover {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-family: Courier New;
+        color: #DDD8D8FF;
+        background-color: #BB1010FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .body-head {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .body-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tune-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 650px) and (max-width: 900px) {
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 78px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 485px;
+    }
+
+    .body-item {
+        background-color: #FF00FF00;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: top;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    #music-display {
+        min-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .music-horzsect {
+        background-color: #00FF0000;
+        width: 100%;
+        min-height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    #nowplaying {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 50%;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    .previouslyplayed {
+        background-color: #0000FF00;
+        width: 70%;
+        height: 250px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 10px;
+    }
+
+    .inline-song {
+        background-color: #150000FF;
+        padding: 6px;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .sittogether {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .small-track {
+        margin-bottom: -10px;
+    }
+
+    .listen-live {
+        background-color: #FF000000;
+        text-align: center;
+    }
+
+    .livebutton {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-family: Courier New;
+        color: #FFF8F8FF;
+        background-color: #DD1616FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    .livebutton:hover {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-family: Courier New;
+        color: #DDD8D8FF;
+        background-color: #BB1010FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .body-head {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .body-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tune-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 420px) and (max-width: 650px) {
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 110px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 295px;
+    }
+
+    .body-item {
+        background-color: #FF00FF00;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: top;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    #music-display {
+        min-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .music-horzsect {
+        background-color: #00FF0000;
+        width: 100%;
+        min-height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    #nowplaying {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 70%;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    #prevplayed {
+        display: none;
+    }
+
+    .previouslyplayed {
+        background-color: #0000FF00;
+        width: 70%;
+        height: 250px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 10px;
+    }
+
+    .inline-song {
+        background-color: #150000FF;
+        padding: 6px;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .sittogether {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .small-track {
+        margin-bottom: -10px;
+    }
+
+    .listen-live {
+        background-color: #FF000000;
+        text-align: center;
+    }
+
+    .livebutton {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-family: Courier New;
+        color: #FFF8F8FF;
+        background-color: #DD1616FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    .livebutton:hover {
+        width: 150px;
+        height: 40px;
+        font-size: 17px;
+        font-family: Courier New;
+        color: #DDD8D8FF;
+        background-color: #BB1010FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .body-head {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .body-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tune-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
+
+@media(min-width: 0px) and (max-width: 420px) {
+    /*Header Styling*/
+    .header-bar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1px;
+        height: 80px;
+        width: 90%;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .center-text {
+        background-color: #FF00FF00;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -26px;
+        width: 190px;
+    }
+
+    .body-item {
+        background-color: #FF00FF00;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: top;
+    }
+
+    #description {
+        text-align: center;
+    }
+
+    #music-display {
+        min-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .music-horzsect {
+        background-color: #00FF0000;
+        width: 100%;
+        min-height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+    #nowplaying {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 70%;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 15px;
+    }
+
+    #prevplayed {
+        display: none;
+    }
+
+    .previouslyplayed {
+        background-color: #0000FF00;
+        width: 70%;
+        height: 250px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        border: 1px solid #FFF8F8FF;
+        border-radius: 10px;
+    }
+
+    .inline-song {
+        background-color: #150000FF;
+        padding: 6px;
+        border-bottom: 1px solid #FFF8F8FF;
+    }
+
+    .sittogether {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .small-track {
+        margin-bottom: -10px;
+    }
+
+    .listen-live {
+        background-color: #FF000000;
+        text-align: center;
+    }
+
+    .livebutton {
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        font-family: Courier New;
+        color: #FFF8F8FF;
+        background-color: #DD1616FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    .livebutton:hover {
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        font-family: Courier New;
+        color: #DDD8D8FF;
+        background-color: #BB1010FF;
+        border: 0px;
+        border-radius: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*Fonts and text styles*/
+    .wsbf-font-1 {
+        color: #FFF8F8FF;
+        font-family: Courier New;
+    }
+
+    .wsbf-font-2 {
+        color: #DD1616FF;
+        font-family: Courier New;
+        font-weight: bold;
+    }
+
+    .pagehead-font {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .body-head {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .body-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tune-text {
+        font-size: 16px;
+        font-weight: normal;
+        background-color: #FF000000;
+        width: 110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    em {
+        color: #DD1616FF;
+        font-style: normal;
+        font-weight: bold;
+    }
+}
